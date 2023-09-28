@@ -8,7 +8,7 @@
 /* Step 2 - Variables */
 
 let fullName = "Omonu Johnson";
-let currentYear = "Freshmen";
+let currentYear = "2023";
 let profilePicture = "images/johnson1.png";
 let foodFavourite = ['rice', ' garri', ' eba', ' amala', ' Nigerian jollof'];
 
@@ -19,7 +19,7 @@ const foodElement = document.getElementById('food');
 const yearElement = document.querySelector('#year');
 const imageElement = Object.assign(new Image(), { alt: 'omonu johnson Image' });
 imageElement.src = 'images/johnson1.png'
-document.getElementById('imagecontainer').appendChild(imageElement);
+
 
 
 
