@@ -17,8 +17,8 @@ let myProfile = {
 
 /* Populate Profile Object with placesLive objects */
 myProfile.placesLived.push({
-  place: "San Francisco, CA",
-  length: "1 year",
+  place: "Nigeria, Lagos",
+  length: "15 year",
 });
 
 /* DOM Manipulation - Output */
