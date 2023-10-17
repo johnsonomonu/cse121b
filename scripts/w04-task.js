@@ -18,7 +18,7 @@ let myProfile = {
 /* Populate Profile Object with placesLive objects */
 myProfile.placesLived.push({
   place: "Nigeria, Lagos",
-  length: "15 year",
+  length: "15 year"
 });
 
 /* DOM Manipulation - Output */
@@ -54,5 +54,7 @@ myProfile.placesLived.forEach((place) => {
 
   let dl = document.querySelector("#places-lived");
   dl.appendChild(dt);
-  dl.appendChild(dd);
+    dl.appendChild(dd);
+    
 });
+
